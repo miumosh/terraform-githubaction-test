@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: 'Checkout'
         uses: actions/checkout@main
-        
+
       - name: 'Terraform Init'
         uses: hashicorp/terraform-github-actions@v0.7.1
         with:
